@@ -8,7 +8,7 @@ body {
      /* Tipografías de Google Fonts */
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
-    Background-image: linear-gradient(to bottom, #e4d9d2, white);
+    Background-image: linear-gradient(to right, #e4d9d2, white);
     color: #313131;
 }
 
@@ -42,8 +42,9 @@ h1 {
 .header-logo {
     width: 20%;
     padding-left: 20px;
-    Transition: height 2s;
+    Transition: height 2s ease;
 }
+
 .header-logo:hover {
 width: 22%;
 }
